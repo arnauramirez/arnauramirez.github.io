@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #353531;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 97%;
+    width: 98%;
+    gap: 10px;
+    margin: 0 auto;
+    padding: 10px;
+}
+div{
+    border-radius: 10px;
+}
+.box:hover{
+    -webkit-box-shadow: -1px 1px 42px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 1px 42px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 1px 42px 0px rgba(0,0,0,0.75);
+}
+.biwenger{
+    background-color: #231f20;
+}
+.yt{
+    background-color: #ff0000;
+}
+.campus{
+    background-color: #105979;
+}
+.tv{
+    background-color: #a970ff;
+}
+.kick{
+    background-color: #3ad305;
+}
+.reddit{
+    background-color: #ff4500;
+}
