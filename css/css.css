@@ -1,53 +1,60 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
-body{
+body {
     background-color: #353531;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
-.container{
+.container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    height: 50%;
+    height: 95%;
     width: 97%;
     gap: 10px;
     margin: 0 auto;
     padding: 10px;
 }
-div{
+div {
     border-radius: 10px;
 }
-.box:hover{
-    -webkit-box-shadow: -1px 1px 42px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: -1px 1px 42px 0px rgba(0,0,0,0.75);
-    box-shadow: -1px 1px 42px 0px rgba(0,0,0,0.75);
-    transition:.5;
+.box{
+    border-radius: 5px;
 }
-.biwenger{
+.box:hover {
+    -webkit-box-shadow: -1px 1px 42px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 1px 42px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px 1px 42px 0px rgba(0, 0, 0, 0.75);
+    transition: 0.5s;
+}
+.biwenger {
     background-color: #231f20;
 }
-.yt{
+.yt {
     background-color: #ff0000;
 }
-.campus{
+.campus {
     background-color: #105979;
 }
-.tv{
+.tv {
     background-color: #a970ff;
 }
-.kick{
+.kick {
     background-color: #3ad305;
 }
-.reddit{
+.reddit {
     background-color: #ff4500;
 }
-.drive{
+.drive {
     background-color: #34a853;
 }
-.gmail{
+.gmail {
     background-color: #4285f4;
 }
-.github{
+.github {
     background-color: #0d1117;
 }
