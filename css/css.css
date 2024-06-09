@@ -9,7 +9,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    height: 100vh;
+    height: 90vh;
     width: 1800px;
     gap: 10px;
     margin: 0 auto;
