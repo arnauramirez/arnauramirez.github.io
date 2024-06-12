@@ -16,7 +16,7 @@ body {
     height: 95%;
     width: 97%;
     gap: 10px;
-    margin: 0 auto;
+    margin: auto auto;
     padding: 10px;
 }
 div {
